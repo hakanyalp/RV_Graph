@@ -1,3 +1,4 @@
 # RV_Graph
 Araç paylaşım uygulamasının ilk adımlarından biri, araca en yakın yolcu ile aracın eşleştirilmesini sonucunda hem araç hem de yolcu için belirlenen gecikme sürelerinin sınırı aşmayacak şekilde eşleşmenin sağlanmasıdır. Bunun için RV_Graph algoritması Manhattan bölgesinden rastgele alınmış veriler üzerinden hesaplama yapmaktadır. Verilere şu linkten ulaşabilirsiniz; https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
 "Geocode" sınıfı 2 koordinat arası mesafeyi bulmayı sağlar. Ancak bunun için google map api key'i gerekmektedir. Önceleri ücretsiz sürümü mevcutken artık ücretli olduğu için projeyi indirip direk kullanamayabilirsiniz. Bunun yerine Geocode sınıfıyla benzer işi görecek 2 koordinat arası kuş uçuşu mesafe hesaplaması yapan bir class'ı kendiniz tanımlayıp kullanabilirsiniz.
